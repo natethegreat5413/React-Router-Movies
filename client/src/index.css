@@ -5,6 +5,14 @@ body {
   background-color: #f2f2f2;
 }
 
+a{
+  text-decoration: none;
+}
+a.home{
+  border-bottom: 1.5px solid black;
+}
+
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -14,6 +22,7 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  text-decoration: none;
 }
 
 .movie-director {
@@ -34,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .saved-list h3 {
